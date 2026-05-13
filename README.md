@@ -1,0 +1,50 @@
+# Cypher — Industrial Vision AI
+
+## 1. Nome do Projeto e Integrantes
+**Projeto:** Cypher — Plataforma de Segurança Industrial Proativa.
+**Turma:** 3º Ano - Engenharia da Computação (Aclimação).
+
+**Integrantes:**
+* **Felipe Wapf Fettback** – RM 557217
+* **Lucas Rodrigues Grecco** – RM 558261
+* **Monique Ferreira Dos Anjos** – RM 558262
+* **Rafael Augusto Oliveira Silva** – RM 555154
+* **Ronaldo Veloso Filho** – RM 556445
+* **Tiago Brito Nário** – RM 558248
+
+---
+
+## 2. Problema Abordado
+O cenário atual da segurança industrial enfrenta um desafio crítico: o modelo de segurança punitivo e reativo está estruturalmente defasado. As inspeções manuais são periódicas e inconsistentes, criando uma falsa sensação de controle onde o risco só é percebido após o incidente. No Brasil, ocorrem cerca de 700 mil acidentes de trabalho por ano, gerando custos que superam R$ 100 bilhões anuais ao sistema previdenciário e às empresas. Estudos indicam que entre 40% e 60% das lesões graves poderiam ser evitadas apenas com o uso correto de Equipamentos de Proteção Individual (EPIs).
+
+---
+
+## 3. Proposta de Solução
+O **Cypher** é uma plataforma modular de segurança industrial proativa que utiliza Visão Computacional para proteger trabalhadores antes que o acidente aconteça. 
+
+A solução fundamenta-se em dois pilares:
+1. **Motor de Visão Computacional:** Identifica em tempo real a presença ou ausência de EPIs obrigatórios (capacete, colete, luvas e óculos) e rastreia pessoas em zonas de risco monitoradas.
+2. **Plataforma Web Cypher:** Dashboard inteligente para gestores com histórico de infrações, heatmaps de risco e KPIs de conformidade, além de um sistema de alertas imediatos (visuais e sonoros) para o operador no campo.
+
+O diferencial do projeto é o foco no **onboarding modular**, permitindo que cada empresa configure suas próprias zonas, câmeras e regras de EPI obrigatório de forma flexível.
+
+---
+
+## 4. Tecnologias Selecionadas e Justificativa Técnica
+
+Para atender às demandas de tempo real, confiabilidade e escalabilidade industrial, selecionamos o seguinte stack tecnológico:
+
+| Tecnologia | Função | Justificativa Técnica |
+| :--- | :--- | :--- |
+| **Python 3.11** | Linguagem Principal | Base robusta para integração de bibliotecas de IA e processamento de dados. |
+| **YOLOv8 (Ultralytics)** | Visão Computacional | Arquitetura de detecção de objetos de última geração que atinge mais de 50 FPS em hardware convencional, garantindo monitoramento em tempo real. |
+| **OpenCV** | Processamento de Imagem | Essencial para a captura e decodificação de streams de vídeo RTSP vindos de câmeras IP industriais. |
+| **Java (Spring Boot)** | Backend de Gestão | Utilizado para a estrutura empresarial do sistema, garantindo segurança, persistência de dados e escalabilidade para o dashboard. |
+| **React + Next.js** | Frontend | Proporciona uma interface web segmentada e altamente responsiva para operadores e gestores. |
+| **SQL (PostgreSQL/Oracle)** | Banco de Dados | Garante a integridade dos logs de eventos, metadados de incidentes e históricos de conformidade para auditoria industrial. |
+
+---
+
+## 5. Documentação UML e Requisitos
+Os artefatos técnicos completos da **Sprint 1** (Diagramas de Caso de Uso, Atividades e Classes) e o levantamento detalhado de requisitos podem ser encontrados na pasta:
+* `[LINK_PARA_PASTA_OU_ARQUIVO_DE_DOCUMENTACAO]`
