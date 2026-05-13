@@ -7,7 +7,7 @@ Esta seção detalha a arquitetura comportamental e estrutural do sistema **Cyph
 ## 1. Diagrama de Casos de Uso
 O diagrama de casos de uso descreve as funcionalidades do sistema e como os diferentes atores interagem com ele.
 
-![Diagrama de Casos de Uso](uml/casos-de-uso-cypher.png)
+![Diagrama de Casos de Uso](/uml/casos-de-uso-cypher.png)
 
 ### **Atores**
 * **Gestor de Segurança**: Ator principal responsável pelo gerenciamento administrativo e estratégico do sistema.
@@ -29,7 +29,7 @@ O diagrama de casos de uso descreve as funcionalidades do sistema e como os dife
 ## 2. Diagrama de Atividades
 O diagrama de atividades descreve o fluxo lógico do monitoramento, desde a captura da imagem até o registro do incidente.
 
-![Diagrama de Atividades](uml/diagrama-de-atividade-cypher.png)
+![Diagrama de Atividades](/uml/diagrama-de-atividade-cypher.png)
 
 ### **Raias de Responsabilidade (Lanes)**
 * **Pista 1: Hardware (Câmeras IP)**: Responsável pela ingestão do stream RTSP.
@@ -50,7 +50,7 @@ O diagrama de atividades descreve o fluxo lógico do monitoramento, desde a capt
 ## 3. Diagrama de Classes
 O diagrama de classes define a estrutura estática das entidades do sistema e seus relacionamentos.
 
-![Diagrama de Classes](uml/diagrama-de-classe.png)
+![Diagrama de Classes](/uml/diagrama-de-classe.png)
 
 ### **Entidades e Atributos**
 * **Empresa**: Classe raiz que contém dados como `cnpj` e `setor`, gerenciando múltiplas zonas de risco.
