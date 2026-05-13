@@ -47,4 +47,5 @@ Para atender às demandas de tempo real, confiabilidade e escalabilidade industr
 
 ## 5. Documentação UML e Requisitos
 Os artefatos técnicos completos da **Sprint 1** (Diagramas de Caso de Uso, Atividades e Classes) e o levantamento detalhado de requisitos podem ser encontrados na pasta:
+* [Requisitos Detalhados](/requisitos/doc-requisitos.md)
 * `[LINK_PARA_PASTA_OU_ARQUIVO_DE_DOCUMENTACAO]`
