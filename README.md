@@ -56,7 +56,7 @@ O protótipo de alta fidelidade do Cypher foi desenvolvido no Figma cobrindo **1
  
 ### 🔗 Links
  
-* **Protótipo Figma (modo apresentação):** [Abrir protótipo navegável](https://www.figma.com/design/kyeXTO2Uw0lkm8DPK2a22v/Interface?node-id=0-1&p=f&t=y1y1U2H6eANluOBD-0)
+* **Protótipo Figma (modo apresentação):** [Abrir protótipo navegável](https://www.figma.com/design/kyeXTO2Uw0lkm8DPK2a22v/Interface?node-id=0-1&t=O14g841SnSssOPLo-1)
 * **Vídeo walkthrough (até 3 min):** [Assistir no YouTube](https://youtu.be/T8X5FBOi1XI)
 * **Documentação de Design completa:** [documentação de design](prototipação/documentação-design.pdf) — contém o mapa de telas, decisões de UX e mapeamento com casos de uso da Sprint 1.
 ### Instruções de Navegação
