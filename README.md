@@ -58,7 +58,7 @@ O protótipo de alta fidelidade do Cypher foi desenvolvido no Figma cobrindo **1
  
 * **Protótipo Figma (modo apresentação):** [Abrir protótipo navegável](https://www.figma.com/design/kyeXTO2Uw0lkm8DPK2a22v/Interface?node-id=0-1&p=f&t=y1y1U2H6eANluOBD-0)
 * **Vídeo walkthrough (até 3 min):** [Assistir no YouTube](https://youtu.be/T8X5FBOi1XI)
-* **Documentação de Design completa:** [`/pro/sprint-2-design.md`](./docs/sprint-2-design.md) — contém o mapa de telas, decisões de UX e mapeamento com casos de uso da Sprint 1.
+* **Documentação de Design completa:** [documentação de design](prototipação/documentação-design.pdf) — contém o mapa de telas, decisões de UX e mapeamento com casos de uso da Sprint 1.
 ### Instruções de Navegação
  
 1. Acesse o link do protótipo Figma acima.
@@ -91,6 +91,6 @@ O protótipo de alta fidelidade do Cypher foi desenvolvido no Figma cobrindo **1
 * **Hierarquia visual de severidade em 5 níveis** — Crítico > Alto > Médio > Aviso > Resolvido, com redundância de cor + ícone para acessibilidade.
 * **Modal bloqueante para alertas críticos** — garante tempo de resposta < 1s em situações de risco iminente.
 * **Sidebar consistente com estado ativo** — padrão familiar de softwares industriais (Siemens TIA Portal, Rockwell FactoryTalk).
-> Justificativas completas e detalhadas estão na [documentação de design](./docs/sprint-2-design.md).
+> Justificativas completas e detalhadas estão na [documentação de design](prototipação/documentação-design.pdf).
  
 ---
