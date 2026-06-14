@@ -49,3 +49,48 @@ Para atender às demandas de tempo real, confiabilidade e escalabilidade industr
 Os artefatos técnicos completos da **Sprint 1** (Diagramas de Caso de Uso, Atividades e Classes) e o levantamento detalhado de requisitos podem ser encontrados na pasta:
 * [Requisitos Detalhados](/requisitos/doc-requisitos.md)
 * [Modelagem UML](/uml/modelagem-uml.md)
+* 
+## 6. Protótipo Navegável (Sprint 2)
+ 
+O protótipo de alta fidelidade do Cypher foi desenvolvido no Figma cobrindo **12 telas** e **65+ zonas de navegação interativas**, contemplando todos os fluxos exigidos pelo briefing da Sprint 2.
+ 
+### 🔗 Links
+ 
+* **Protótipo Figma (modo apresentação):** [Abrir protótipo navegável](https://www.figma.com/design/kyeXTO2Uw0lkm8DPK2a22v/Interface?node-id=0-1&p=f&t=y1y1U2H6eANluOBD-0)
+* **Vídeo walkthrough (até 3 min):** [Assistir no YouTube](https://youtu.be/T8X5FBOi1XI)
+* **Documentação de Design completa:** [`/pro/sprint-2-design.md`](./docs/sprint-2-design.md) — contém o mapa de telas, decisões de UX e mapeamento com casos de uso da Sprint 1.
+### Instruções de Navegação
+ 
+1. Acesse o link do protótipo Figma acima.
+2. No canto superior direito, clique no botão **▶ Present** (ou pressione `Shift + Espaço`) para entrar no modo apresentação navegável.
+3. Use o **mouse/trackpad** para clicar nas áreas interativas. Áreas clicáveis estão destacadas brevemente ao pressionar `R` no Figma.
+4. Para retornar à tela inicial a qualquer momento, pressione `Home` ou use o item **Login** no menu lateral.
+### Fluxos Cobertos pelo Protótipo
+ 
+| Fluxo Exigido (Briefing) | Telas Envolvidas |
+| :--- | :--- |
+| **Cadastro e consulta de EPI por colaborador** | `05 Gestão EPIs` → `11 Cadastro EPI` → `06 Colaboradores` → `10 Perfil do Colaborador` |
+| **Emissão e visualização de alerta de risco** | `03 Ao Vivo` → `09 Modal Crítico` → `04 Alertas` |
+| **Geração de relatório de conformidade por setor** | `02 Dashboard` → `07 Relatórios` |
+| **Onboarding e configuração inicial** | `08 Onboarding` → `01 Login` → `02 Dashboard` |
+ 
+### Mapa de Telas (Resumo)
+ 
+```
+08 Onboarding ──► 01 Login ──► 02 Dashboard ──┬─► 03 Ao Vivo ──► 09 Modal Crítico
+                                              ├─► 04 Alertas ──► 10 Perfil
+                                              ├─► 05 Gestão EPIs ──► 11 Cadastro EPI
+                                              ├─► 06 Colaboradores ──► 12 Cadastro Colab
+                                              └─► 07 Relatórios
+```
+ 
+### Principais Decisões de UX
+ 
+* **Dark mode como padrão** — reduz fadiga visual em ambientes de sala de controle 24/7 e segue padrão SCADA industrial.
+* **Filosofia "Prever, não punir"** — linguagem educativa e contextualizada nos alertas, alinhada ao princípio norteador do produto.
+* **Hierarquia visual de severidade em 5 níveis** — Crítico > Alto > Médio > Aviso > Resolvido, com redundância de cor + ícone para acessibilidade.
+* **Modal bloqueante para alertas críticos** — garante tempo de resposta < 1s em situações de risco iminente.
+* **Sidebar consistente com estado ativo** — padrão familiar de softwares industriais (Siemens TIA Portal, Rockwell FactoryTalk).
+> Justificativas completas e detalhadas estão na [documentação de design](./docs/sprint-2-design.md).
+ 
+---
